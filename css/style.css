@@ -1,0 +1,117 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/figtree-v6-latin-regular.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/figtree-v6-latin-500.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/figtree-v6-latin-600.woff2') format('woff2');
+  }
+  @font-face {
+    font-display: swap;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/figtree-v6-latin-700.woff2') format('woff2');
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    height: 100%;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  img {
+    display: flex;
+    object-fit: cover;
+  }
+
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #ffffff;
+    background-color: #F4D04E;
+    font-family: "Figtree",sans-serif;
+  }
+
+  .container {
+    width: 384px;
+    height: 522px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 24px;
+    color: #000;
+  }
+
+  .container__a {
+    background-color: #F4D04E;
+    color: #000;
+    padding: 5px 15px 5px 15px;
+    border-radius: 4px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  .container__h3 {
+    font-size: 14px;
+    line-height: 21px;
+    color: #111111;
+  }
+  .container__h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .container__h1:hover {
+    color: #F4D04E;
+  }
+
+  .container__p {
+    color: #7F7F7F;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 24px;
+  }
+
+  .container__img--h2 {
+    display: flex;
+  }
+
+  .header__user--img {
+    padding-right: 12px;
+    margin-bottom: 10px;
+  }
+  .container__h2 {
+    font-size: 14px;
+    line-height: 21px;
+  }
